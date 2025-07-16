@@ -1,7 +1,5 @@
-# QCommerce-India-Case-Study
-A Data Analytics Case Study on Quick Commerce Sector in India.
 # Q-Commerce India Case Study 📦
-
+A Data Analytics Case Study on Quick Commerce Sector in India.
 ## 📑 Project Overview
 This case study analyzes delivery, category performance, and order data of the Indian Quick Commerce (Q-Commerce) sector.  
 The goal is to uncover operational insights, understand delivery performance, and recommend strategies for improving profitability and customer experience.
