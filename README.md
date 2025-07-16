@@ -58,7 +58,7 @@ With a focus on delivery efficiency, category performance, and dark store optimi
 
 ## 📁 Repository Contents
 - `Qcommerce_India_Case_Study_EDA.ipynb` — Complete analysis notebook
-- 'Qcommerce_case_study.csv' - Dataset
+- `Qcommerce_case_study.csv` - Dataset
 - `README.md` — Project overview and insights
 ---
 
