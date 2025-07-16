@@ -7,7 +7,7 @@ The goal is to uncover operational insights, understand delivery performance, an
 ---
 
 ## 📊 Key Business Questions Answered
-- Which cities have the highest delivery time and what factors contribute to it?
+- What product categories and discount strategies drive higher average order value in Q-commerce
 - What is the revenue contribution of each product category?
 - How does dark store performance impact delivery efficiency?
 - What strategic actions can improve delivery time and profitability?
@@ -17,7 +17,7 @@ The goal is to uncover operational insights, understand delivery performance, an
 ## 🗂️ Dataset Description
 The dataset used in this project contains:
 - **Order Details:** Order ID, Category, Order Time, Delivery Time
-- **Customer Info:** City, Customer ID
+- **Customer Info:** Customer ID , Name , Gender , City
 - **Cost & Revenue Metrics:** Revenue, Gross Revenue, Net Revenue
 - **Delivery Metrics:** Delivery Time (minutes), Delivery Zone
 - **Performance Indicators:** Dark Store ID, Delivery Status
@@ -33,9 +33,11 @@ The dataset used in this project contains:
 ---
 
 ## 🔍 Key Insights
-- 📈 **Delivery time is higher in metro cities**, indicating the need for optimized delivery routes and potential dark store expansion.
-- 🏷️ **Top categories drive the majority of revenue**, suggesting a focus on high-demand products can improve profitability.
+- 📈  **Product Categories**: Groceries and Personal Care contribute most to revenue, but groceries often see net losses when heavy discounts are applied
+- 🌦️ **Weather Impact**: Rainy and stormy days correlate with longer delivery delays and increased operational costs.
 - 🏬 **Dark store performance directly affects delivery efficiency**, highlighting the importance of strategic dark store placement.
+- 📦 **Low AOV Drives Margin Pressure**: A large volume of low-ticket orders, especially under ₹300, contributes to poor unit economics due to high fulfillment and delivery costs.
+
 
 ---
 
@@ -44,6 +46,7 @@ The dataset used in this project contains:
 - Focus on top-performing product categories to boost profitability.
 - Optimize delivery routes in cities with longer delivery times.
 - Regularly monitor dark store performance for continuous improvement.
+- Increase Average Order Value (AOV) ,Encourage larger baskets through bundling, cross-selling, and minimum order thresholds to improve profit per delivery.
 
 ---
 
@@ -54,11 +57,9 @@ With a focus on delivery efficiency, category performance, and dark store optimi
 ---
 
 ## 📁 Repository Contents
-- `Qcommerce_India_Case_Study.ipynb` — Complete analysis notebook
+- `Qcommerce_India_Case_Study_EDA.ipynb` — Complete analysis notebook
+- 'Qcommerce_case_study.csv' - Dataset
 - `README.md` — Project overview and insights
-- `Images/` — (Optional) Visualizations used in analysis
-- `Dataset/` — (Optional) Sample dataset (without confidential info)
-
 ---
 
 ## 👨‍💻 Author
